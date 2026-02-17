@@ -15,8 +15,6 @@ Technologies:
 
 Note: The current implementation is configured for a specifically mapped facility. Re-mapping is required for deployment in other environments.
 
---
-
 ## 研究概要（日本語）
 
 本研究は、Visual Positioning System（VPS）とAR表示を統合した消防隊向けナビゲーションシステムの開発を目的とする。
