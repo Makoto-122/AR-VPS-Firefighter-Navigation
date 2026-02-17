@@ -1,38 +1,32 @@
-# AR Firefighter Navigation using VPS
+# Development of an AR-Based Firefighter Navigation System Using Visual Positioning System
+
+## Overview (English)
 
 This project proposes an AR-based navigation system for firefighters using a Visual Positioning System (VPS).
 
-## Background
+The system integrates real-time self-localization, A* pathfinding, and AR overlay guidance to support intuitive navigation in large-scale facilities.
 
-In large and complex facilities, firefighters may lose time identifying fire sources and nearby water supply points. This study aims to reduce arrival time using AR navigation.
-
-## System Overview
-
-- Self-localization using Immersal VPS
-- A* pathfinding algorithm
-- Water-node prioritized routing
-- AR overlay navigation in real-world space
-- REST API (Flask) for simulated fire-source acquisition
-
-## Experimental Result
-
-In a controlled experiment with 45 participants:
-
-- No navigation: 254.33 sec (avg)
-- Floor plan: 218.13 sec (avg)
-- AR navigation: 55.40 sec (avg)
-
-→ Approx. 78% reduction compared to no-navigation condition.
-
-## Technology Stack
-
-- Unity 2021.3 LTS
+Technologies:
+- Unity
 - AR Foundation / ARKit
-- Immersal SDK
-- C#
-- Flask (Python)
+- Immersal VPS SDK
+- A* Pathfinding Algorithm
+- Flask REST API
+- 
+## 研究概要（日本語）
 
-## Note
+本研究は、Visual Positioning System（VPS）とAR表示を統合した消防隊向けナビゲーションシステムの開発を目的とする。
 
-Immersal SDK is proprietary software by Immersal Ltd.
-This repository contains research implementation using the SDK.
+大規模施設における火災発生時、消防隊員は火元や水利設備の位置を迅速に特定する必要がある。しかし、複雑な建物構成や視認性の低下により、到達までに時間を要する可能性がある。
+
+本研究では、スマートフォン単体での屋内自己位置推定を可能とするVPSと、A*アルゴリズムによる経路探索を組み合わせ、実空間上に経路を重ねて提示するARナビゲーションを構築した。
+
+また、被験者実験を通じて本システムの有効性を検証し、消防活動支援への応用可能性を示した。
+
+本研究は学部卒業論文として実施された。
+
+## 論文・発表資料
+
+卒業論文本文、梗概、発表資料はこちら：
+
+[Google Drive Link]https://drive.google.com/drive/folders/14js_4hvOsyGgMHdHBGQbHLteRvDHE0lH?usp=share_link
