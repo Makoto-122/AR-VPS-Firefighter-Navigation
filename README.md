@@ -33,4 +33,4 @@ Note: The current implementation is configured for a specifically mapped facilit
 
 卒業論文本文、梗概、発表資料はこちら：
 
-[卒業論文関連資料（Google Drive）]ttps://drive.google.com/drive/folders/14js_4hvOsyGgMHdHBGQbHLteRvDHE0lH?usp=share_link
+[卒業論文関連資料（Google Drive）]https://drive.google.com/drive/folders/14js_4hvOsyGgMHdHBGQbHLteRvDHE0lH?usp=share_link
