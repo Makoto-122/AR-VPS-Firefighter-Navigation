@@ -12,7 +12,11 @@ Technologies:
 - Immersal VPS SDK
 - A* Pathfinding Algorithm
 - Flask REST API
-- 
+
+Note: The current implementation is configured for a specifically mapped facility. Re-mapping is required for deployment in other environments.
+
+--
+
 ## 研究概要（日本語）
 
 本研究は、Visual Positioning System（VPS）とAR表示を統合した消防隊向けナビゲーションシステムの開発を目的とする。
@@ -25,8 +29,10 @@ Technologies:
 
 本研究は学部卒業論文として実施された。
 
+※本システムは立命館大学トリシアを対象として構築されており、他施設で利用する場合は対象空間の再マッピングおよび環境構築が必要となる。
+
 ## 論文・発表資料
 
 卒業論文本文、梗概、発表資料はこちら：
 
-[Google Drive Link]https://drive.google.com/drive/folders/14js_4hvOsyGgMHdHBGQbHLteRvDHE0lH?usp=share_link
+[卒業論文関連資料（Google Drive）]ttps://drive.google.com/drive/folders/14js_4hvOsyGgMHdHBGQbHLteRvDHE0lH?usp=share_link
